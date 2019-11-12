@@ -27,3 +27,10 @@ AlignConsecutiveAssignments: true
 # float       b = 23;
 # std::string ccc = 23;
 AlignConsecutiveDeclarations: true 
+
+# #if FOO
+#  #if BAR
+#    #include <foo>
+#  #endif
+# #endif
+IndentPPDirectives: AfterHash
