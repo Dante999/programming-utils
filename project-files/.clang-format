@@ -34,3 +34,7 @@ AlignConsecutiveDeclarations: true
 #  #endif
 # #endif
 IndentPPDirectives: AfterHash
+
+
+AllowAllParametersOfDeclarationOnNextLine: true
+AllowShortFunctionsOnASingleLine: Empty
